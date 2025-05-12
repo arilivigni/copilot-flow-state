@@ -25,5 +25,5 @@
         }
     },
     "forwardPorts": [],
-    "postCreateCommand": "echo 'copilot-flow-state DevContainer setup complete!'"
+    "postCreateCommand": "/bin/bash .devcontainer/postCreate.sh"
 }
