@@ -9,12 +9,27 @@ We are thrilled that you are here and ready to explore the capabilities of GitHu
 📋 Quick Start:
   • GitHub Copilot is ready to use in this environment
   • Try typing code or comments and see how Copilot suggests completions
-  • Use Ctrl+Enter to see inline suggestions
-  • Use Alt+\ to open the Copilot Chat panel
+
+⌨️ Keyboard Shortcuts:
+  • Copilot Suggestions:
+    - Accept suggestion: Tab
+    - Reject suggestion: Esc
+    - Show next suggestion: Alt+]
+    - Show previous suggestion: Alt+[
+    - Trigger inline suggestions: Alt+\ or Ctrl+Enter
+  
+  • Copilot Chat:
+    - Open Copilot Chat panel: Ctrl+Shift+I
+    - Focus Chat input: Alt+/
+    - Submit Chat request: Shift+Enter
+  
+  • VS Code Command Palette:
+    - Open command palette: Ctrl+Shift+P or F1
+    - Access all Copilot commands by typing "Copilot" in the palette
 
 📚 Resources:
   • GitHub Copilot documentation: https://docs.github.com/en/copilot
   • Keyboard shortcuts: https://docs.github.com/en/copilot/getting-started-with-github-copilot
-  • Best practices: https://github.blog/2023-06-20-github-copilot-chat-best-practices
+  • Best practices: https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot
 
 Happy coding with GitHub Copilot! 🚀
