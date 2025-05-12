@@ -1,0 +1,29 @@
+{
+    "name": "copilot-flow-state",
+    "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "latest"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot-chat-insiders",
+                "GitHub.copilot-insiders",
+                "ms-python.python",
+                "dbaeumer.vscode-eslint",
+                "DavidAnson.vscode-markdownlint",
+                "bierner.markdown-mermaid"
+            ],
+            "settings": {
+                "chat.agent.enabled": true,
+                "chat.mcp.enabled": true
+            }
+        }
+    },
+    "forwardPorts": [],
+    "postCreateCommand": "echo 'copilot-flow-state DevContainer setup complete!'"
+}
