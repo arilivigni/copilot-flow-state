@@ -1,12 +1,13 @@
 {
     "name": "copilot-flow-state",
-    "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
-    "postCreateCommand": "chmod +x ./.devcontainer/postCreate.sh && ./.devcontainer/postCreate.sh",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
         "ghcr.io/devcontainers/features/github-cli:1": {},
         "ghcr.io/devcontainers/features/node:1": {
-            "version": "latest"
+            "version": "lts",
+            "pnpmVersion": "latest",
+            "nvmVersion": "latest"
         }
     },
     "customizations": {
@@ -24,5 +25,6 @@
             }
         }
     },
-    "forwardPorts": []
+    "forwardPorts": [],
+    "postCreateCommand": "chmod +x ./.devcontainer/postCreate.sh && bash ./.devcontainer/postCreate.sh"
 }
