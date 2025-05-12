@@ -1,6 +1,7 @@
 {
     "name": "copilot-flow-state",
     "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+    "postCreateCommand": "sudo chmod +x ./.devcontainer/postCreate.sh && ./.devcontainer/postCreate.sh",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
         "ghcr.io/devcontainers/features/github-cli:1": {},
@@ -11,7 +12,6 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "GitHub.copilot-chat-insiders",
                 "GitHub.copilot-insiders",
                 "ms-python.python",
                 "dbaeumer.vscode-eslint",
@@ -25,5 +25,4 @@
         }
     },
     "forwardPorts": [],
-    "postCreateCommand": "sudo chmod +x ./.devcontainer/postCreate.sh && ./.devcontainer/postCreate.sh"
 }
