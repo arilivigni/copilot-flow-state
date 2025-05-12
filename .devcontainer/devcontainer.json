@@ -26,5 +26,5 @@
         }
     },
     "forwardPorts": [],
-    "postCreateCommand": "chmod +x ./.devcontainer/postCreate.sh && bash ./.devcontainer/postCreate.sh"
+    "postCreateCommand": "sudo chmod +x ./.devcontainer/postCreate.sh && bash ./.devcontainer/postCreate.sh"
 }
