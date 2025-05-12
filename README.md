@@ -1,4 +1,18 @@
+
 # Copilot Flow State
+
+This repository is a **template** for quickly setting up a GitHub Copilot development environment. Use it to bootstrap your own projects with recommended tools, extensions, and configuration for Copilot and agent workflows.
+
+
+## About This Template
+
+This template provides:
+- A ready-to-use Dev Container for VS Code
+- Pre-installed extensions for Copilot, Python, linting, and diagrams
+- Docker-in-Docker support for containerized development
+- Example Copilot and agent settings
+
+---
 
 ## Development Container Configuration
 
