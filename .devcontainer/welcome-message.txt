@@ -1,3 +1,20 @@
-👋 Welcome to your copilot-flow-state DevContainer environment
-We are thrilled that you are here, and we hope you are excited to explore the capabilities of Copilot!
-📃 GitHub Copilot documentation: https://docs.github.com/en/copilot
+╔═══════════════════════════════════════════════════════════════════════╗
+║                                                                       ║
+║  👋 Welcome to your Copilot Flow State DevContainer environment!      ║
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+We are thrilled that you are here and ready to explore the capabilities of GitHub Copilot!
+
+📋 Quick Start:
+  • GitHub Copilot is ready to use in this environment
+  • Try typing code or comments and see how Copilot suggests completions
+  • Use Ctrl+Enter to see inline suggestions
+  • Use Alt+\ to open the Copilot Chat panel
+
+📚 Resources:
+  • GitHub Copilot documentation: https://docs.github.com/en/copilot
+  • Keyboard shortcuts: https://docs.github.com/en/copilot/getting-started-with-github-copilot
+  • Best practices: https://github.blog/2023-06-20-github-copilot-chat-best-practices
+
+Happy coding with GitHub Copilot! 🚀
