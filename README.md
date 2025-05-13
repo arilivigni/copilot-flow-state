@@ -1,4 +1,3 @@
-
 # Copilot Flow State
 
 This repository is a **template** for quickly setting up a GitHub Copilot development environment. Use it to bootstrap your own projects with recommended tools, extensions, and configuration for Copilot and agent workflows.
@@ -18,18 +17,18 @@ This template provides:
 
 This project uses a Development Container with the following configuration:
 
-- Base image: `mcr.microsoft.com/devcontainers/universal:2-linux`
+- Base image: `mcr.microsoft.com/devcontainers/base:jammy`
 - Features:
   - Docker-in-Docker for local container development
   - GitHub CLI
-  - Latest Node.js
+  - Latest Node.js (with pnpm and nvm)
+- Post-create command: Runs `.devcontainer/postCreate.sh` after container setup
 
 ### VS Code Extensions
 
 The following extensions are automatically installed:
 
 - GitHub Copilot Insiders
-- GitHub Copilot Chat Insiders
 - Python
 - ESLint
 - Markdown Lint
